@@ -16,4 +16,3 @@ void main() {
   group('Test API Providers', () {
     setUp(() {
       var keys = getKeys();
-      bible.addKeys(keys);
