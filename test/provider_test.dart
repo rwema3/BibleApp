@@ -69,5 +69,4 @@ void main() {
       passage = await bible.queryPassage(
         'Genesis 1:1',
         providerName: 'esvapi',
-      )!;
     
