@@ -37,4 +37,3 @@ void main() {
       expect(passage.passage, startsWith('(1)'));
     });
     test('Getbible', () async {
-      var passage = await bible.queryPassage('Genesis 1-2',
