@@ -62,4 +62,5 @@ void main() {
           providerName: 'esvapi',
           parameters: {'include-verse-numbers': 'true'})!;
       expect(
+          passage.passage,
     
