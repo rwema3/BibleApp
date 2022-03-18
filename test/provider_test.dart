@@ -46,3 +46,4 @@ void main() {
       expect(passage.extra, isNot(null));
       expect(passage.version, equals('ASV'));
 
+      passage = await bible.queryPassage('Genesis 1:1 - 2:3',
