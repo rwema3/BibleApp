@@ -67,4 +67,5 @@ void main() {
               '[1] In the beginning, God created the heavens and the earth.'));
       expect(passage.version, equals('ESV'));
       passage = await bible.queryPassage(
+        'Genesis 1:1',
     
