@@ -26,3 +26,4 @@ void main() {
         expect(passage, isNot(null));
         expect(passage.passage!.length, greaterThan(5));
         if (passage.verses != null) {
+          expect(passage.verses!.length, equals(5));
