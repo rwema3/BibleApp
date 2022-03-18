@@ -70,5 +70,4 @@ void main() {
         'Genesis 1:1',
         providerName: 'esvapi',
       )!;
-      expect(passage.passage,
     
