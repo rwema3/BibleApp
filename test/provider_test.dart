@@ -44,4 +44,3 @@ void main() {
           version: 'asv', providerName: 'getbible')!;
       expect(passage.verses!.length, equals(4));
       expect(passage.extra, isNot(null));
-      expect(passage.version, equals('ASV'));
