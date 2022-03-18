@@ -29,4 +29,3 @@ void main() {
           expect(passage.verses!.length, equals(5));
         }
       });
-    }, skip: true);
