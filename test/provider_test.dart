@@ -65,5 +65,4 @@ void main() {
           passage.passage,
           equals(
               '[1] In the beginning, God created the heavens and the earth.'));
-      expect(passage.version, equals('ESV'));
     
