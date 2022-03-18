@@ -7,3 +7,4 @@ void main() {
     test('Keys can be queried', () {
       bible.addKeys({'testapi': 'esvKey'});
       expect(bible.getKey('testapi'), equals('esvKey'));
+      bible.removeKey('testapi');
