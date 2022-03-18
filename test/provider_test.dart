@@ -5,4 +5,3 @@ import 'secrets.dart' as secrets;
 void main() {
   group('Test bible', () {
     test('Keys can be queried', () {
-      bible.addKeys({'testapi': 'esvKey'});
