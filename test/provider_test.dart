@@ -3,4 +3,3 @@ import 'package:test/test.dart';
 import 'secrets.dart' as secrets;
 
 void main() {
-  group('Test bible', () {
