@@ -71,5 +71,4 @@ void main() {
         providerName: 'esvapi',
       )!;
       expect(passage.passage,
-          equals('In the beginning, God created the heavens and the earth.'));
     
