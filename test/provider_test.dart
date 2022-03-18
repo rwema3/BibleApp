@@ -58,5 +58,4 @@ void main() {
       if (bible.getKey('esvapi') == null) {
         return;
       }
-      var passage = await bible.queryPassage('Genesis 1:1',
     
