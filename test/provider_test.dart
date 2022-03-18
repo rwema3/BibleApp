@@ -10,4 +10,3 @@ void main() {
       bible.removeKey('testapi');
       expect(bible.getKey('testapi'), equals(null));
     });
-  });
