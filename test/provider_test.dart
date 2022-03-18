@@ -77,4 +77,5 @@ void main() {
 
     test('BibleOrg', () async {
       var passage =
+          await bible.queryPassage('Genesis 1:1-4', providerName: 'bibleorg')!;
     
