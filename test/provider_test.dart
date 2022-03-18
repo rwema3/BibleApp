@@ -24,4 +24,3 @@ void main() {
       providers.forEach((pro) async {
         var passage = await bible.queryPassage('Genesis 1:1-5', provider: pro)!;
         expect(passage, isNot(null));
-        expect(passage.passage!.length, greaterThan(5));
