@@ -49,4 +49,3 @@ void main() {
       passage = await bible.queryPassage('Genesis 1:1 - 2:3',
           version: 'akjv', providerName: 'getbible')!;
       expect(passage.verses!.length, equals(56));
-      expect(passage.extra, isNot(null));
