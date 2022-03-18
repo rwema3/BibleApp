@@ -81,4 +81,4 @@ void main() {
       expect(passage.version, equals('NET'));
       expect(passage.verses!.length, equals(4));
     });
-  })
+  });
