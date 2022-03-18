@@ -14,4 +14,3 @@ void main() {
 
   // TODO: Make a general API test
   group('Test API Providers', () {
-    setUp(() {
