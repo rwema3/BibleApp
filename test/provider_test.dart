@@ -85,4 +85,4 @@ void main() {
 }
 
 Map<String, String> getKeys() {
-  return secrets.key
+  return secrets.keys;
