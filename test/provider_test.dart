@@ -54,6 +54,4 @@ void main() {
       expect(passage.version, equals('AKJV'));
     });
 
-    test('ESV API', () async {
-      if (bible.getKey('esvapi') == null) {
     
