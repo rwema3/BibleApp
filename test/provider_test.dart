@@ -36,3 +36,4 @@ void main() {
           parameters: {'verse_numbers': 'true'}, providerName: 'bibleapi')!;
       expect(passage.passage, startsWith('(1)'));
     });
+    test('Getbible', () async {
