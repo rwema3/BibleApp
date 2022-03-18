@@ -80,4 +80,5 @@ void main() {
           await bible.queryPassage('Genesis 1:1-4', providerName: 'bibleorg')!;
       expect(passage.version, equals('NET'));
       expect(passage.verses!.length, equals(4));
-    
+    });
+  })
