@@ -47,4 +47,3 @@ void main() {
       expect(passage.version, equals('ASV'));
 
       passage = await bible.queryPassage('Genesis 1:1 - 2:3',
-          version: 'akjv', providerName: 'getbible')!;
