@@ -9,3 +9,4 @@ void main() {
       expect(bible.getKey('testapi'), equals('esvKey'));
       bible.removeKey('testapi');
       expect(bible.getKey('testapi'), equals(null));
+    });
