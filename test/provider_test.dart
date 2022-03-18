@@ -40,3 +40,4 @@ void main() {
       var passage = await bible.queryPassage('Genesis 1-2',
           version: 'asv', providerName: 'getbible')!;
       expect(passage.verses!.length, equals(56));
+      passage = await bible.queryPassage('Genesis 1:1-4',
