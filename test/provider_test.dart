@@ -17,4 +17,3 @@ void main() {
     setUp(() {
       var keys = getKeys();
       bible.addKeys(keys);
-    });
