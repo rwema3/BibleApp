@@ -28,4 +28,3 @@ void main() {
         if (passage.verses != null) {
           expect(passage.verses!.length, equals(5));
         }
-      });
