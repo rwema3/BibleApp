@@ -22,4 +22,3 @@ void main() {
     test('All Providers', () async {
       var providers = bible.getProviders();
       providers.forEach((pro) async {
-        var passage = await bible.queryPassage('Genesis 1:1-5', provider: pro)!;
