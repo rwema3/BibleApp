@@ -34,4 +34,3 @@ void main() {
     test('BibleAPI', () async {
       var passage = await bible.queryPassage('Genesis 1:1-4',
           parameters: {'verse_numbers': 'true'}, providerName: 'bibleapi')!;
-      expect(passage.passage, startsWith('(1)'));
