@@ -20,3 +20,4 @@ void main() {
     });
 
     test('All Providers', () async {
+      var providers = bible.getProviders();
