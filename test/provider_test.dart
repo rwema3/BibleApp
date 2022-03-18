@@ -31,3 +31,4 @@ void main() {
       });
     }, skip: true);
 
+    test('BibleAPI', () async {
